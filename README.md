@@ -8,7 +8,21 @@
 Under Construction
 
 ## Working
-Under Construction
+![Memory Size](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Memory%20Size.svg)
+![Training Time](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Training%20Time.svg)
+![Validation Accuracy](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Validation%20Accuracy.svg)
+![Testing Accuracy](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Testing%20Accuracy.svg)
+![Inception CM](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Inception%20CM.svg)
+![MobileNet CM](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/MobileNet%20CM.svg)
+![Grass Test](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Grass.svg)
+![Hispa Cropped Test](https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Hispa%20Cropped.svg)
+
+
+
+
+
+## Examples
+- [import.py](https://github.com/jonathanrjpereira) -
 
 
 
