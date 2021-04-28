@@ -12,7 +12,7 @@ A Convolutional Neural Network (CNN) is trained on a dataset consisting of image
  - Classify diseased images of Rice leaves using Transfer Learning
 
 ## Background  
-Prior methods for automatically classifying diseased plant images such as rule-based classifiers as used in [1], rely on a fixed set of rules to segment the leaf into affected and unaffected regions. Some of the rules to extract features involve observing the change in the mean and standard deviation between the color of the affected and unaffected regions. Rules to extract shape features involve individually placing several primitive shapes on top of the affected region and identifying the shape that covers the maximum area of the affected region. Once the features are extracted from the images, a set of fixed rules are used to classify the images depending upon the disease that may have affected the plant. The main drawback of such a classifier is that it will require several fixed rules for each disease which in turn could make it susceptible to noisy data.
+Prior methods for automatically classifying diseased plant images such as rule-based classifiers as used in [[1]], rely on a fixed set of rules to segment the leaf into affected and unaffected regions. Some of the rules to extract features involve observing the change in the mean and standard deviation between the color of the affected and unaffected regions. Rules to extract shape features involve individually placing several primitive shapes on top of the affected region and identifying the shape that covers the maximum area of the affected region. Once the features are extracted from the images, a set of fixed rules are used to classify the images depending upon the disease that may have affected the plant. The main drawback of such a classifier is that it will require several fixed rules for each disease which in turn could make it susceptible to noisy data.
 
 The image classification technique described in this paper uses the basic structure of a CNN that consists of several convolutional layers, a pooling layer and a final fully connected layer. The convolutional layers act as a set of filters that extract the high-level features of the image. Max-pooling is one of the common methods used in pooling layers to reduce the spatial size of the extracted features thereby reducing the computation power required to calculate the weights for each layer. Finally, the extracted data is passed through a fully connected layer along with a softmax activation function which determines the class of the image.
 
@@ -58,13 +58,13 @@ Inception-v3 showed similar classification results as MobileNet-v2
 The image below shows how the MobileNet-v2 model misclassifies an image of a grass leaf against a white background as Rice Hispa.
 
 <p align="center">
-<img src="https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Grass.svg" width="50%" height="50%">
+<img src="https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/grass.png" width="50%" height="50%">
 </p>
 
-We also tested the accuracy of MobileNet-v2 on cropped images of Rice Hispa wherein the white background was minimized such that leaf occupies maximum area within the image. For cropped images of Rice Hispa, we observed an accuracy of approximately 80.81%.
+We also tested the accuracy of MobileNet-v2 on cropped images of Rice Hispa wherein the white background was minimized such that the leaf occupies maximum area within the image. For cropped images of Rice Hispa, we observed an accuracy of approximately 80.81%.
 
 <p align="center">
-<img src="https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/Hispa%20Cropped.svg" width="50%" height="50%">
+<img src="https://github.com/jonathanrjpereira/Rice-Disease-Classification/blob/master/img/hispa_cropped.png" width="50%" height="50%">
 </p>
 
 ## Conclusion
